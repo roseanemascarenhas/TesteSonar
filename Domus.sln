@@ -1,0 +1,231 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{547F2737-75E5-4A63-9D5D-7E0952C766C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application", "03 - Application", "{BDE90D41-5C71-4D7B-8C29-E70F515F9415}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Domain", "04 - Domain", "{DDD88354-2A0D-4A2E-9AAC-116641E35FF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Infrastructure", "05 - Infrastructure", "{8A6BEA53-205F-46BE-92BF-E6E21129D3B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Test", "06 - Test", "{8DC275A0-AA31-49BF-B00A-E6D779ED474B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Application", "Domus.Application\Domus.Application.csproj", "{86E0DD1E-0CF2-491C-BFB3-485320D95AA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Service", "02 - Service", "{C6403F83-FA18-42EE-A1AB-9A724E5D1191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{48EA8A0B-FAF1-4501-A9E4-A1BD7364BB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Domain", "Domus.Domain\Domus.Domain.csproj", "{12230540-B3AF-4887-AFEF-A18D619B6A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Infra.Data", "Domus.Infra\Domus.Infra.Data.csproj", "{44DCA840-1A2C-4225-B6D6-0504CBFECD78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Service", "Domus.Service\Domus.Service.csproj", "{CA5F6494-B4A6-46BE-BF6E-1CF33C405085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.BackOffice", "Domus.BackOffice\Domus.BackOffice.csproj", "{763DC57D-0DC8-40E7-BF0F-3532844CAA32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - ServiceApi", "5.2 - ServiceApi", "{B14AC7DA-0583-44E6-A0EF-E2E8657E9493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Infra.Service", "Domus.Infra.Service\Domus.Infra.Service.csproj", "{BBE6E3D7-F8AA-4AE7-B251-664D1242CB96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3 - Logging", "5.3 - Logging", "{9EF59746-075E-4865-8D38-41159263361E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Logging", "Dommus.Logging\Domus.Logging.csproj", "{F96F8137-852D-4EBC-94B1-13EA9FC8EE7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.CentralApi", "Domus.CentralApi\Domus.CentralApi.csproj", "{CF6D7D91-25C6-43AC-B565-ABD68B55D729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Util", "Domus.Util\Domus.Util.csproj", "{6C04D965-97B9-4EEA-A476-21DE99853765}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.4 - CrossCuting", "5.4 - CrossCuting", "{05FCEF09-233A-4F30-A4FF-BC442565C0A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.WebSites", "Domus.WebSites\Domus.WebSites.csproj", "{770070AB-C8A4-40B5-891B-BAA0D0F2FD53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.5 - Mail", "5.5 - Mail", "{617CF7EE-DF04-43FD-85B3-E9259F85F463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.6 - Report", "5.6 - Report", "{A19A8BC7-14A4-461D-8EB4-066598526417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.DependencyInjection", "Domus.DependencyInjection\Domus.DependencyInjection.csproj", "{A3842313-D1BC-491C-A6C5-E3728D5C0235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.MailService", "Domus.MailService\Domus.MailService.csproj", "{0237DDAF-8A52-42CA-BE00-6ABB5E61168A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Infra.Email", "Domus.Infra.Email\Domus.Infra.Email.csproj", "{31A4F716-B1F0-4D8E-B837-3F259EDC382F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Test", "Domus.Test\Domus.Test.csproj", "{E727F250-A71F-4DA4-AF17-6FB1A85DB7CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Infra.Data.Dapper", "Domus.Infra.Data.Dapper\Domus.Infra.Data.Dapper.csproj", "{09945F9F-D49B-4C3F-BD07-FC94A232A146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domus.Report", "Domus.Report\Domus.Report.csproj", "{0144F0E2-05B5-4B7D-B6E0-64A93933CB21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86E0DD1E-0CF2-491C-BFB3-485320D95AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E0DD1E-0CF2-491C-BFB3-485320D95AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E0DD1E-0CF2-491C-BFB3-485320D95AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E0DD1E-0CF2-491C-BFB3-485320D95AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12230540-B3AF-4887-AFEF-A18D619B6A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12230540-B3AF-4887-AFEF-A18D619B6A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12230540-B3AF-4887-AFEF-A18D619B6A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12230540-B3AF-4887-AFEF-A18D619B6A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DCA840-1A2C-4225-B6D6-0504CBFECD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DCA840-1A2C-4225-B6D6-0504CBFECD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DCA840-1A2C-4225-B6D6-0504CBFECD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DCA840-1A2C-4225-B6D6-0504CBFECD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5F6494-B4A6-46BE-BF6E-1CF33C405085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5F6494-B4A6-46BE-BF6E-1CF33C405085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5F6494-B4A6-46BE-BF6E-1CF33C405085}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5F6494-B4A6-46BE-BF6E-1CF33C405085}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{763DC57D-0DC8-40E7-BF0F-3532844CAA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763DC57D-0DC8-40E7-BF0F-3532844CAA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763DC57D-0DC8-40E7-BF0F-3532844CAA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763DC57D-0DC8-40E7-BF0F-3532844CAA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE6E3D7-F8AA-4AE7-B251-664D1242CB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE6E3D7-F8AA-4AE7-B251-664D1242CB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE6E3D7-F8AA-4AE7-B251-664D1242CB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE6E3D7-F8AA-4AE7-B251-664D1242CB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96F8137-852D-4EBC-94B1-13EA9FC8EE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96F8137-852D-4EBC-94B1-13EA9FC8EE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96F8137-852D-4EBC-94B1-13EA9FC8EE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96F8137-852D-4EBC-94B1-13EA9FC8EE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6D7D91-25C6-43AC-B565-ABD68B55D729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6D7D91-25C6-43AC-B565-ABD68B55D729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6D7D91-25C6-43AC-B565-ABD68B55D729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6D7D91-25C6-43AC-B565-ABD68B55D729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C04D965-97B9-4EEA-A476-21DE99853765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C04D965-97B9-4EEA-A476-21DE99853765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C04D965-97B9-4EEA-A476-21DE99853765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C04D965-97B9-4EEA-A476-21DE99853765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770070AB-C8A4-40B5-891B-BAA0D0F2FD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770070AB-C8A4-40B5-891B-BAA0D0F2FD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770070AB-C8A4-40B5-891B-BAA0D0F2FD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770070AB-C8A4-40B5-891B-BAA0D0F2FD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3842313-D1BC-491C-A6C5-E3728D5C0235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3842313-D1BC-491C-A6C5-E3728D5C0235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3842313-D1BC-491C-A6C5-E3728D5C0235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3842313-D1BC-491C-A6C5-E3728D5C0235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0237DDAF-8A52-42CA-BE00-6ABB5E61168A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0237DDAF-8A52-42CA-BE00-6ABB5E61168A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0237DDAF-8A52-42CA-BE00-6ABB5E61168A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0237DDAF-8A52-42CA-BE00-6ABB5E61168A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A4F716-B1F0-4D8E-B837-3F259EDC382F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A4F716-B1F0-4D8E-B837-3F259EDC382F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A4F716-B1F0-4D8E-B837-3F259EDC382F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A4F716-B1F0-4D8E-B837-3F259EDC382F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E727F250-A71F-4DA4-AF17-6FB1A85DB7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E727F250-A71F-4DA4-AF17-6FB1A85DB7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E727F250-A71F-4DA4-AF17-6FB1A85DB7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E727F250-A71F-4DA4-AF17-6FB1A85DB7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09945F9F-D49B-4C3F-BD07-FC94A232A146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09945F9F-D49B-4C3F-BD07-FC94A232A146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09945F9F-D49B-4C3F-BD07-FC94A232A146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09945F9F-D49B-4C3F-BD07-FC94A232A146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0144F0E2-05B5-4B7D-B6E0-64A93933CB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0144F0E2-05B5-4B7D-B6E0-64A93933CB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0144F0E2-05B5-4B7D-B6E0-64A93933CB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0144F0E2-05B5-4B7D-B6E0-64A93933CB21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86E0DD1E-0CF2-491C-BFB3-485320D95AA0} = {BDE90D41-5C71-4D7B-8C29-E70F515F9415}
+		{48EA8A0B-FAF1-4501-A9E4-A1BD7364BB10} = {8A6BEA53-205F-46BE-92BF-E6E21129D3B6}
+		{12230540-B3AF-4887-AFEF-A18D619B6A39} = {DDD88354-2A0D-4A2E-9AAC-116641E35FF0}
+		{44DCA840-1A2C-4225-B6D6-0504CBFECD78} = {48EA8A0B-FAF1-4501-A9E4-A1BD7364BB10}
+		{CA5F6494-B4A6-46BE-BF6E-1CF33C405085} = {C6403F83-FA18-42EE-A1AB-9A724E5D1191}
+		{763DC57D-0DC8-40E7-BF0F-3532844CAA32} = {547F2737-75E5-4A63-9D5D-7E0952C766C3}
+		{B14AC7DA-0583-44E6-A0EF-E2E8657E9493} = {8A6BEA53-205F-46BE-92BF-E6E21129D3B6}
+		{BBE6E3D7-F8AA-4AE7-B251-664D1242CB96} = {B14AC7DA-0583-44E6-A0EF-E2E8657E9493}
+		{9EF59746-075E-4865-8D38-41159263361E} = {8A6BEA53-205F-46BE-92BF-E6E21129D3B6}
+		{F96F8137-852D-4EBC-94B1-13EA9FC8EE7A} = {9EF59746-075E-4865-8D38-41159263361E}
+		{CF6D7D91-25C6-43AC-B565-ABD68B55D729} = {547F2737-75E5-4A63-9D5D-7E0952C766C3}
+		{6C04D965-97B9-4EEA-A476-21DE99853765} = {C6403F83-FA18-42EE-A1AB-9A724E5D1191}
+		{05FCEF09-233A-4F30-A4FF-BC442565C0A8} = {8A6BEA53-205F-46BE-92BF-E6E21129D3B6}
+		{770070AB-C8A4-40B5-891B-BAA0D0F2FD53} = {547F2737-75E5-4A63-9D5D-7E0952C766C3}
+		{617CF7EE-DF04-43FD-85B3-E9259F85F463} = {8A6BEA53-205F-46BE-92BF-E6E21129D3B6}
+		{A19A8BC7-14A4-461D-8EB4-066598526417} = {8A6BEA53-205F-46BE-92BF-E6E21129D3B6}
+		{A3842313-D1BC-491C-A6C5-E3728D5C0235} = {05FCEF09-233A-4F30-A4FF-BC442565C0A8}
+		{0237DDAF-8A52-42CA-BE00-6ABB5E61168A} = {617CF7EE-DF04-43FD-85B3-E9259F85F463}
+		{31A4F716-B1F0-4D8E-B837-3F259EDC382F} = {B14AC7DA-0583-44E6-A0EF-E2E8657E9493}
+		{E727F250-A71F-4DA4-AF17-6FB1A85DB7CB} = {8DC275A0-AA31-49BF-B00A-E6D779ED474B}
+		{09945F9F-D49B-4C3F-BD07-FC94A232A146} = {48EA8A0B-FAF1-4501-A9E4-A1BD7364BB10}
+		{0144F0E2-05B5-4B7D-B6E0-64A93933CB21} = {A19A8BC7-14A4-461D-8EB4-066598526417}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://markconsulting.visualstudio.com/
+		SccLocalPath0 = Domus.COHE.DB
+		SccProjectFilePathRelativizedFromConnection0 = ..\\
+		SccProjectUniqueName1 = Domus.Application\\Domus.Application.csproj
+		SccProjectTopLevelParentUniqueName1 = Domus.sln
+		SccProjectName1 = Domus.Application
+		SccLocalPath1 = Domus.Application
+		SccProjectUniqueName2 = Domus.Domain\\Domus.Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = Domus.sln
+		SccProjectName2 = Domus.Domain
+		SccLocalPath2 = Domus.Domain
+		SccProjectUniqueName3 = Domus.Infra\\Domus.Infra.Data.csproj
+		SccProjectTopLevelParentUniqueName3 = Domus.sln
+		SccProjectName3 = Domus.Infra
+		SccLocalPath3 = Domus.Infra
+		SccProjectUniqueName4 = Domus.Service\\Domus.Service.csproj
+		SccProjectTopLevelParentUniqueName4 = Domus.sln
+		SccProjectName4 = Domus.Service
+		SccLocalPath4 = Domus.Service
+		SccProjectUniqueName5 = Domus.BackOffice\\Domus.BackOffice.csproj
+		SccProjectTopLevelParentUniqueName5 = Domus.sln
+		SccProjectName5 = Domus.BackOffice
+		SccLocalPath5 = Domus.BackOffice
+		SccProjectUniqueName6 = Domus.Infra.Service\\Domus.Infra.Service.csproj
+		SccProjectTopLevelParentUniqueName6 = Domus.sln
+		SccProjectName6 = Domus.Infra.Service
+		SccLocalPath6 = Domus.Infra.Service
+		SccProjectUniqueName7 = Domus.CentralApi\\Domus.CentralApi.csproj
+		SccProjectTopLevelParentUniqueName7 = Domus.sln
+		SccProjectName7 = Domus.CentralApi
+		SccLocalPath7 = Domus.CentralApi
+		SccProjectUniqueName8 = Domus.Util\\Domus.Util.csproj
+		SccProjectTopLevelParentUniqueName8 = Domus.sln
+		SccProjectName8 = Domus.Util
+		SccLocalPath8 = Domus.Util
+		SccProjectUniqueName9 = Domus.WebSites\\Domus.WebSites.csproj
+		SccProjectTopLevelParentUniqueName9 = Domus.sln
+		SccProjectName9 = Domus.WebSites
+		SccLocalPath9 = Domus.WebSites
+		SccProjectUniqueName10 = Dommus.Logging\\Domus.Logging.csproj
+		SccProjectTopLevelParentUniqueName10 = Domus.sln
+		SccProjectName10 = Dommus.Logging
+		SccLocalPath10 = Dommus.Logging
+		SccProjectUniqueName11 = Domus.DependencyInjection\\Domus.DependencyInjection.csproj
+		SccProjectTopLevelParentUniqueName11 = Domus.sln
+		SccProjectName11 = Domus.DependencyInjection
+		SccLocalPath11 = Domus.DependencyInjection
+		SccProjectUniqueName12 = Domus.MailService\\Domus.MailService.csproj
+		SccProjectTopLevelParentUniqueName12 = Domus.sln
+		SccProjectName12 = Domus.MailService
+		SccLocalPath12 = Domus.MailService
+		SccProjectUniqueName13 = Domus.Infra.Email\\Domus.Infra.Email.csproj
+		SccProjectTopLevelParentUniqueName13 = Domus.sln
+		SccProjectName13 = Domus.Infra.Email
+		SccLocalPath13 = Domus.Infra.Email
+		SccProjectUniqueName14 = Domus.Test\\Domus.Test.csproj
+		SccProjectTopLevelParentUniqueName14 = Domus.sln
+		SccProjectName14 = Domus.Test
+		SccLocalPath14 = Domus.Test
+		SccProjectUniqueName15 = Domus.Infra.Data.Dapper\\Domus.Infra.Data.Dapper.csproj
+		SccProjectTopLevelParentUniqueName15 = Domus.sln
+		SccProjectName15 = Domus.Infra.Data.Dapper
+		SccLocalPath15 = Domus.Infra.Data.Dapper
+		SccProjectUniqueName16 = Domus.Report\\Domus.Report.csproj
+		SccProjectTopLevelParentUniqueName16 = Domus.sln
+		SccProjectName16 = Domus.Report
+		SccLocalPath16 = Domus.Report
+	EndGlobalSection
+EndGlobal
